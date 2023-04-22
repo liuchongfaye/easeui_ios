@@ -23,4 +23,6 @@
 #import "EaseChatViewController.h"
 #import "EaseChatViewModel.h"
 
+#import "EaseMessageCell.h"
+
 #import "EaseExtMenuModel.h"
