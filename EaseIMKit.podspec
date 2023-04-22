@@ -1,25 +1,26 @@
 Pod::Spec.new do |s|
     s.name             = 'EaseIMKit'
-    s.version          = '4.0.1'
+    s.version          = '3.8.9'
     s.summary = 'easemob im sdk UIKit'
     s.homepage = 'http://docs-im.easemob.com/im/ios/other/easeimkit'
     s.description = <<-DESC
                     EaseIMKit Supported features:
-
                     1. Conversation list
                     2. Chat page (singleChat,groupChat,chatRoom)
                     3. Contact list
                   DESC
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'easemob' => 'dev@easemob.com' }
-    s.source = { :git => 'https://github.com/easemob/easeui_ios.git', :tag => 'EaseIMKit_4.0.1'}
+    s.source = { :git => 'https://github.com/easemob/easeui_ios.git', :tag => 'EaseIMKit_3.8.9'}
+    #s.source = { :git => 'https://github.com/MThrone/easeui_ios.git', :tag => 'EaseIMKit_3.8.4'}
     s.frameworks = 'UIKit'
     s.libraries = 'stdc++'
-    s.ios.deployment_target = '11.0'
+    s.ios.deployment_target = '10.0'
     s.source_files = [
         'EaseIMKit/EaseIMKit/EaseIMKit.h',
         'EaseIMKit/EaseIMKit/EasePublicHeaders.h',
-        'EaseIMKit/EaseIMKit/**/*.{h,m,mm}'
+        'EaseIMKit/EaseIMKit/**/*.{h,m,mm}',
+        'EaseIMKit/EaseIMKit'
     ]
     s.public_header_files = [
         'EaseIMKit/EaseIMKit/EaseIMKit.h',
