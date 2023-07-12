@@ -2,6 +2,10 @@
 
 *[English](README.en.md) | 中文*
 
+
+
+
+
 ## 简介
 EaseIMKit是一个基于环信sdk的UI库，封装了IM功能常用的控件等。</br>
 github上的代码不包含环信sdk，需要依赖环信IM 3.x版本的SDK使用，建议与环信的IM demo一起使用。
